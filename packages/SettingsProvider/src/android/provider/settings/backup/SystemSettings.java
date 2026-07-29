@@ -215,8 +215,7 @@ public class SystemSettings {
                 Settings.System.NOTIFICATION_SOUND_VIB_SCREEN_ON,
                 Settings.System.DC_DIM_ENABLED,
                 Settings.System.SHADE_BLUR_RADIUS,
-                Settings.System.SHADE_SCRIM_ALPHA,
-                Settings.System.BATTERY_TEXT_ONLY
+                Settings.System.SHADE_SCRIM_ALPHA
         ));
         if (Flags.backUpSmoothDisplayAndForcePeakRefreshRate()) {
             settings.add(Settings.System.PEAK_REFRESH_RATE);

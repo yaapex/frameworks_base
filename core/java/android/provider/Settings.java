@@ -7526,12 +7526,6 @@ public final class Settings {
         public static final String SHADE_SCRIM_ALPHA = "shade_scrim_alpha";
 
         /**
-         * Whether to show the battery as text only instead of an icon
-         * @hide
-         */
-        public static final String BATTERY_TEXT_ONLY = "battery_text_only";
-
-        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
